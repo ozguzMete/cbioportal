@@ -18,7 +18,7 @@ In this example we use [Docker Compose](https://docs.docker.com/compose/) to spi
 git clone https://github.com/cBioPortal/cbioportal-docker-compose.git
 cd cbioportal-docker-compose
 ./init.sh
-docker-compose up
+sudo docker-compose up
 ```
 
 You should now be able to see the cBioPortal website at http://localhost:8080
